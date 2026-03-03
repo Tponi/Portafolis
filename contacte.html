@@ -2,12 +2,12 @@
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Sobre mi</title>
+    <title>Contacte</title>
     <link rel="stylesheet" href="portafoli/css/estilportafoli.css">
 </head>
 <body>
 <header>
-    <h1>Sobre mi</h1>
+    <h1>Contacte</h1>
     <nav>
         <ul>
             <li><a href="index.html">Inici</a></li>
@@ -19,16 +19,20 @@
     </nav>
 </header>
 <section class="contingut">
-    <h2>Qui sóc?</h2>
-    <p>Soc un estudiant que està aprenent a crear pàgines web. M’agrada la agricultura i vull viure a la montanya.</p>
+    <h2>Envia’m un missatge</h2>
 
-    <h3>Habilitats</h3>
-    <table>
-        <tr><th>Habilitat</th><th>Nivell</th></tr>
-        <tr><td>HTML</td><td>Bàsic</td></tr>
-        <tr><td>CSS</td><td>Bàsic</td></tr>
-        <tr><td>GitHub</td><td>En procés</td></tr>
-    </table>
+    <form>
+        <label>Nom:</label>
+        <input type="text" name="nom">
+
+        <label>Email:</label>
+        <input type="email" name="email">
+
+        <label>Missatge:</label>
+        <textarea name="missatge"></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
 </section>
 <footer>
     <p>© 2026 Toni Cunyat</p>
